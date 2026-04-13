@@ -1,22 +1,23 @@
-{
-  "name": "indonesiadaily-article-generator",
+﻿{
+  "name": "jantenterkini",
   "version": "1.0.0",
-  "description": "Generator artikel otomatis dari Google Sheets untuk Indonesia Daily",
+  "description": "Generator artikel otomatis dari Google Sheets untuk Janten Terkini",
   "main": "generate.js",
   "scripts": {
     "generate": "node generate.js",
     "start": "node generate.js"
   },
   "keywords": [
-    "indonesiadaily",
+    "jantenterkini",
     "generator",
     "google-sheets",
     "html"
   ],
-  "author": "Indonesia Daily Team",
+  "author": "Janten Terkini Team",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.0",
     "handlebars": "^4.7.7"
   }
 }
+
