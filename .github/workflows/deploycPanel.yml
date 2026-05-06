@@ -33,7 +33,7 @@ jobs:
           username: deploy1@bandungbersuara.jabarinfo.id
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
-          protocol: ftp
+          protocol: ftps
           local-dir: ./  # atau ./ jika ingin upload semua
           server-dir: /jantenterkini/
           timeout: 120000
