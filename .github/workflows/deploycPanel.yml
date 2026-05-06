@@ -36,7 +36,7 @@ jobs:
           protocol: ftp
           local-dir: ./  # atau ./ jika ingin upload semua
           server-dir: /jantenterkini/
-          timeout: 30000
+          timeout: 300000
           dangerous-clean-slate: false
           exclude: |
             **/.git*
